@@ -15,7 +15,7 @@ for hack in range(10000):
         print("00{}".format(hack))
     if hack < 10:
         print("000{}".format(hack))
-    if hack > 10000:
+    if hack > 999:
         print(hack)
         if code == hack and (code < 1000 and code > 99):
             print("0{}".format(code))
@@ -23,5 +23,5 @@ for hack in range(10000):
             print("00{}".format(code))
         if code == hack and code < 10:
             print("000{}".format(code))
-        if code == hack and code > 10000:
+        if code == hack and code > 999:
             print(code)
