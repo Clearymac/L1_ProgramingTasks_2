@@ -25,3 +25,4 @@ for hack in range(10000):
             print("000{}".format(code))
         if code == hack and code > 999:
             print(code)
+        break
